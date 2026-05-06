@@ -19,9 +19,10 @@ export default function App() {
     const updateDimensions = () => {
       const width = window.innerWidth;
       // Responsive radius based on viewport and container max-widths
-      if (width < 640) setRadius(135);
-      else if (width < 1024) setRadius(170);
-      else setRadius(210);
+      if (width < 400) setRadius(90);
+      else if (width < 640) setRadius(120);
+      else if (width < 1024) setRadius(160);
+      else setRadius(180);
     };
     updateDimensions();
     window.addEventListener('resize', updateDimensions);
