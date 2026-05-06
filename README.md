@@ -2,7 +2,7 @@
 
 An elegant, high-fidelity decision-making application featuring a realistic bottle-spinning mechanic with physics-based animations.
 
-![Vintner's Spin Showcase](./screenshot.png)
+![Vintner's Spin Showcase](screenshot.png)
 
 ## Features
 
